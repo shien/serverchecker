@@ -1,3 +1,3 @@
 # Server Checker
 
-Use checking server status.
+Use this tool for checking server status.
