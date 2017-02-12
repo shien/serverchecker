@@ -34,7 +34,7 @@ class Host:
         return self.connection_name
 
 if __name__ == "__main__":
-    host = Host("hostname1.json")
+    host = Host("test_file/hostname1.json")
     print(host.get_test_contents("default_gateway"))
     print(host.get_connection_name())
 
