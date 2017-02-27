@@ -6,6 +6,7 @@ class ServerChecker:
     def run(self):
 #       tests = get_tests()
 #       is_all_passed()
+        print("TODO run")
 
     def is_all_passed(self):
         return True        

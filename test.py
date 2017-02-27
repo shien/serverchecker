@@ -1,8 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import json
-
+import host
 
 class Test:
 
@@ -10,8 +9,10 @@ class Test:
         return test
         
     def get_all_test(self, testfile):
+        return "tests"
         
     def test(self, host):
+        print("host")
 
 if __name__ == "__main__":
     print("test")
