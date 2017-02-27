@@ -1,9 +1,0 @@
-{
-    "serverchecker": {
-        "connection_name": "hostname1",
-        "test" : {
-            "default_gateway" : "192.168.1.254",
-            "hostname" : "hostname1"
-        }
-    }
-}
