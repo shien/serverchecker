@@ -4,4 +4,4 @@
 import subprocess
 
 def test_gateway():
-    
+    output = subprocess.check_output(["ssh", hostname, "/sbin/ip", "route"])    
