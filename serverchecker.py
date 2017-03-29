@@ -15,3 +15,7 @@ class ServerChecker:
 if __name__ == "__main__":
     server_checker = ServerChecker()
     server_checker.run()
+    if server_checker.is_all_passed():
+        print("[ Success ]")
+    else:
+        print("[ Failed ]")

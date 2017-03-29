@@ -8,9 +8,6 @@ class Test:
     def __make_test(self):
         return test
         
-    def get_all_test(self, testfile):
-        return "tests"
-        
     def test(self, host):
         print("host")
 
