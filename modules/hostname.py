@@ -15,7 +15,7 @@ def test_hostname(hostname):
     return False
 
 if __name__ == "__main__":
-    if test_hostname("dmc-gate1"):
+    if test_hostname("test-server"):
         print("[Passed]")
     else:
         print("[Failed]")

@@ -12,4 +12,4 @@ def test_file_path(path, hostname):
         return False
 
 if __name__ == "__main__":
-    test_file_path("~/test.txt", "dmc-gate1")
+    test_file_path("~/test.txt", "test-server")
