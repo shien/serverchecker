@@ -3,6 +3,10 @@
 
 import subprocess
 
+#
+# check host name
+#
+
 def test_hostname(hostname):
     output = subprocess.check_output(["ssh", hostname, "hostname"])    
     hostname = hostname + "\n"
