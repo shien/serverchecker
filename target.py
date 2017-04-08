@@ -28,13 +28,13 @@ class Target:
         self.data.update({key: data})
 
     def get_test_contents(self,key):
-        return self.data["test"]
+        return self.data["test"].get(key)
 
     def get_connection_name(self):
         return self.connection_name
 
 if __name__ == "__main__":
-    target = Target("test_file/targetname1.json")
+    target = Target("test_file/hostname1.json")
     print(target.get_test_contents("default_gateway"))
     print(target.get_connection_name())
 
